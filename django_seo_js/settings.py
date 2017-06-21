@@ -62,7 +62,7 @@ USER_AGENTS = frozenset(getattr(django_settings, 'SEO_JS_USER_AGENTS', (
     "quoralink preview'",
     "showyoubot",
     "outbrain",
-    "pinterest",
+    "www.pinterest.com/bot.html",
     "developersgoogle.com/+/web/snippet",
 )))
 
