@@ -48,10 +48,10 @@ IGNORE_EXTENSIONS = frozenset(getattr(django_settings, 'SEO_JS_IGNORE_EXTENSIONS
 USER_AGENTS = frozenset(getattr(django_settings, 'SEO_JS_USER_AGENTS', (
     # These first three should be disabled, since they support escaped fragments, and
     # and leaving them enabled will penalize a website as "cloaked".
-    # "Googlebot",
     # "Yahoo",
     # "bingbot",
 
+    "Googlebot",
     "Ask Jeeves",
     "baiduspider",
     "facebookexternalhit",
